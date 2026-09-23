@@ -1,4 +1,9 @@
+import { Text, View } from "react-native";
 const SavedScreen = () => {
-    return <div>saved</div>;
+    return (
+        <View>
+            <Text>SavedScreen</Text>
+        </View>
+    );
 };
 export default SavedScreen;

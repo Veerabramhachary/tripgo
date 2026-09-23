@@ -1,6 +1,6 @@
 import { Stack } from "expo-router";
 
-export const _layout = () => {
+export const HomeLayout = () => {
     return (
         <Stack screenOptions={{ headerShown: false }}>
             <Stack.Screen name="index" />

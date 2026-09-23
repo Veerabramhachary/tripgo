@@ -1,4 +1,9 @@
+import { Text, View } from "react-native";
 const ExploreScreen = () => {
-    return <div>ExploreScreen</div>;
+    return (
+        <View>
+            <Text>ExploreScreen</Text>
+        </View>
+    );
 };
 export default ExploreScreen;

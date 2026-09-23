@@ -4,7 +4,7 @@ import { Tabs } from "expo-router";
 const TabLayout = () => (
     <Tabs screenOptions={{ headerShown: false }}>
         <Tabs.Screen
-            name="index"
+            name="home"
             options={{
                 title: "Home",
                 tabBarIcon: ({ color, size }) => (

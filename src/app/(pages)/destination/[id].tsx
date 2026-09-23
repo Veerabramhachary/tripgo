@@ -1,4 +1,9 @@
+import { Text, View } from "react-native";
 const DestinationPage = () => {
-    return <div> DesinationPage</div>;
+    return (
+        <View>
+            <Text>[id]</Text>
+        </View>
+    );
 };
 export default DestinationPage;
