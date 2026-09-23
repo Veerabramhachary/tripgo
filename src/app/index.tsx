@@ -1,5 +1,4 @@
 import { StyleSheet, Text, View } from "react-native";
-// @ts-expect-error NativeWind processes this stylesheet at build time.
 import "../../global.css";
 
 export default function Index() {
